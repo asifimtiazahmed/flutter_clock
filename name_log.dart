@@ -2,8 +2,8 @@
 /*
 Sept 14th:
 commit1: done
-commit2: 
-commit3:
+commit2: done
+commit3: 
 commit4:
 
 Sept 15th:
