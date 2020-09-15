@@ -1,8 +1,8 @@
 //Git push for name:
 /*
 Sept 14th:
-commit1:
-commit2:
+commit1: done
+commit2: 
 commit3:
 commit4:
 
