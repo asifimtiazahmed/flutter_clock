@@ -1,5 +1,5 @@
 import 'dart:async';
-
+import 'widgets/alarm_item.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:intl/intl.dart';
@@ -89,7 +89,17 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
                   children: [
                     Padding(
                       padding: EdgeInsets.all(8.0),
-                      child: Text('hi!'),
+                      child: Container(
+                        height: 500,
+                        child: ListView(
+                          children: [
+                            alarmItem(_timeString, true),
+                            alarmItem(_timeString, true),
+                            alarmItem(_timeString, true),
+                            alarmItem(_timeString, true),
+                          ],
+                        ),
+                      ),
                     ),
                   ],
                 ),
