@@ -1,6 +1,9 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:intl/intl.dart';
+import 'shapes_painter.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -23,7 +26,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
 
     _timeString = _formatDateTime(DateTime.now());
 
-   // Timer.periodic(Duration(seconds: 1), (Timer t) => _getTime());
+   Timer.periodic(Duration(seconds: 1), (Timer t) => _getTime());
   }
 
   void _getTime () {
@@ -44,8 +47,9 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
     return DefaultTabController(
       length: 4,
       child: Scaffold(
+        backgroundColor: Theme.of(context).primaryColor,
         appBar: AppBar(
-          backgroundColor: Theme.of(context).primaryColor,
+          //backgroundColor: Theme.of(context).primaryColor,
           bottom: TabBar(
             controller: _tabController,
             indicatorColor: Theme.of(context).accentColor,
@@ -74,6 +78,8 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
                         child: Container(height: 500.0),
                       ),
                     ),
+                    Text(_timeString.toString(),
+                    style: TextStyle(color: Colors.white, fontSize: 50.0, fontWeight: FontWeight.bold ),),
                   ],
                 ),
               ),
