@@ -15,7 +15,19 @@ Widget alarmItem(hour, enabled){
                   color: Colors.white,
                   fontSize: 50.0,
                   fontWeight: FontWeight.bold
-                ),)
+                )),
+                Row(
+                 children: [
+                   Padding(
+                     padding: EdgeInsets.all(4.0),
+                     child: Text('Sun', style: TextStyle(
+                       color: Colors.white,
+                       fontWeight: FontWeight.bold,
+                       fontSize: 20.0,
+                     )),
+                   ),
+                 ],
+                ),
               ],
             )
           ],

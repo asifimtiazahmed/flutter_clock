@@ -14,9 +14,9 @@ commit4: done
 
 Sept 16th:
 commit1: done
-commit2:
-commit3:
-commit4:
+commit2: done
+commit3: done
+commit4: done
 
 Sept 17th:
 commit1:
