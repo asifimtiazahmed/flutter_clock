@@ -4,10 +4,10 @@ Sept 14th:
 commit1: done
 commit2: done
 commit3: done
-commit4: 
+commit4: done
 
 Sept 15th:
-commit1:
+commit1: done
 commit2:
 commit3:
 commit4:
