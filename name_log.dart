@@ -13,7 +13,7 @@ commit3: done
 commit4: done
 
 Sept 16th:
-commit1:
+commit1: done
 commit2:
 commit3:
 commit4:
