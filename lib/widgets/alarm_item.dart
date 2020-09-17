@@ -26,12 +26,40 @@ Widget alarmItem(hour, enabled){
                        fontSize: 20.0,
                      )),
                    ),
+                   Padding(
+                     padding: EdgeInsets.all(4.0),
+                     child: Text('Mon', style: TextStyle(
+                       color: Colors.white,
+                       fontWeight: FontWeight.bold,
+                       fontSize: 20.0,
+                     )),
+                   ),
+                   Padding(
+                     padding: EdgeInsets.all(4.0),
+                     child: Text('Tue', style: TextStyle(
+                       color: Colors.white,
+                       fontWeight: FontWeight.bold,
+                       fontSize: 20.0,
+                     )),
+                   ),
                  ],
                 ),
               ],
+            ),
+            Switch.adaptive(
+                value: enabled,
+                onChanged: (bool val){
+                  print(val);
+                },
+            activeColor: Color(0xFF65D1BA),
             )
           ],
         ),
+        SizedBox(height: 10.0,),
+    SizedBox(
+      height: 1.0,
+      child: Container(color: Colors.white30,),
+    ),
       ],
     ),
   );

@@ -11,25 +11,20 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
-
   String _timeString;
   TabController _tabController;
 
   @override
-  void initState(){
+  void initState() {
     super.initState();
-    _tabController = TabController(
-      length: 4,
-      vsync: this,
-      initialIndex: 0
-    );
+    _tabController = TabController(length: 4, vsync: this, initialIndex: 0);
 
     _timeString = _formatDateTime(DateTime.now());
 
-   Timer.periodic(Duration(seconds: 1), (Timer t) => _getTime());
+    Timer.periodic(Duration(seconds: 1), (Timer t) => _getTime());
   }
 
-  void _getTime () {
+  void _getTime() {
     final DateTime now = DateTime.now();
     final String formattedDateTime = _formatDateTime(now);
 
@@ -38,7 +33,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
     });
   }
 
-  String _formatDateTime(DateTime dateTime){
+  String _formatDateTime(DateTime dateTime) {
     return DateFormat('hh:mm').format(dateTime);
   }
 
@@ -51,21 +46,32 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         appBar: AppBar(
           //backgroundColor: Theme.of(context).primaryColor,
           bottom: TabBar(
-            controller: _tabController,
-            indicatorColor: Theme.of(context).accentColor,
-            indicatorWeight: 4.0,
-            tabs: <Widget>[
-              Tab(icon: Icon(Icons.access_time), text: 'Clock',),
-              Tab(icon: Icon(Icons.alarm), text: 'Alarm',),
-              Tab(icon: Icon(Icons.hourglass_empty), text: 'Timer',),
-              Tab(icon: Icon(Icons.timer), text: 'Stopwatch',),
-            ]
-
-          ),
+              controller: _tabController,
+              indicatorColor: Theme.of(context).accentColor,
+              indicatorWeight: 4.0,
+              tabs: <Widget>[
+                Tab(
+                  icon: Icon(Icons.access_time),
+                  text: 'Clock',
+                ),
+                Tab(
+                  icon: Icon(Icons.alarm),
+                  text: 'Alarm',
+                ),
+                Tab(
+                  icon: Icon(Icons.hourglass_empty),
+                  text: 'Timer',
+                ),
+                Tab(
+                  icon: Icon(Icons.timer),
+                  text: 'Stopwatch',
+                ),
+              ]),
         ),
         body: Container(
           child: TabBarView(
-            controller: _tabController, //As the controller has been defined to have 4 tabs we must return 4 children
+            controller:
+                _tabController, //As the controller has been defined to have 4 tabs we must return 4 children
             children: [
               //CLOCK
               Container(
@@ -78,8 +84,13 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
                         child: Container(height: 500.0),
                       ),
                     ),
-                    Text(_timeString.toString(),
-                    style: TextStyle(color: Colors.white, fontSize: 50.0, fontWeight: FontWeight.bold ),),
+                    Text(
+                      _timeString.toString(),
+                      style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 50.0,
+                          fontWeight: FontWeight.bold),
+                    ),
                   ],
                 ),
               ),
@@ -129,7 +140,22 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
             ],
           ),
         ),
+        floatingActionButton: _bottomButtons(),
+        floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
       ),
     );
+  }
+
+  Widget _bottomButtons() {
+    return _tabController.index == 1
+        ? FloatingActionButton(
+            onPressed: () => Navigator.pushNamed(context, '/add-alarm'),
+            backgroundColor: Color(0xFF65D1BA),
+            child: Icon(
+              Icons.add,
+              size: 20.0,
+            ),
+          )
+        : null;
   }
 }

@@ -19,7 +19,7 @@ commit3: done
 commit4: done
 
 Sept 17th:
-commit1:
+commit1: 
 commit2:
 commit3:
 commit4:
@@ -160,6 +160,351 @@ commit1:
 commit2:
 commit3:
 commit4:
+
+November 8th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+November 9th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+November 10th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+November 11th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+November 14th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+November 15th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+November 18th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+November 19th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+November 20th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+November 21th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+November 22th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+November 25th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+November 26th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+November 27th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+November 28th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+December 13th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+December 19th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+December 20th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+December 21th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+December 22th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+December 23th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+December 24th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+December 25th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+December 26th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+December 27th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+December 28th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+December 29th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+December 30th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+December 31th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+January 1st:
+commit1:
+commit2:
+commit3:
+commit4:
+
+January 2nd:
+commit1:
+commit2:
+commit3:
+commit4:
+
+January 3rd:
+commit1:
+commit2:
+commit3:
+commit4:
+
+January 9th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+January 24th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+January 25th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+January 26th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+January 27th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+January 28th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+January 29th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+January 30th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+January 31st:
+commit1:
+commit2:
+commit3:
+commit4:
+
+February 1st:
+commit1:
+commit2:
+commit3:
+commit4:
+
+February 2nd:
+commit1:
+commit2:
+commit3:
+commit4:
+
+February 3rd:
+commit1:
+commit2:
+commit3:
+commit4:
+
+February 4th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+February 5th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+February 6th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+February 7th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+February 8th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+February 10th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+February 11th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+February 14th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+February 15th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+February 17th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+February 18th:
+commit1:
+commit2:
+commit3:
+commit4:
+
+February 21st:
+commit1:
+commit2:
+commit3:
+commit4:
+
+February 22nd:
+commit1:
+commit2:
+commit3:
+commit4:
+
+
+
 
 
  */
