@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'add-alarm.dart';
 import 'home.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       initialRoute: '/',
       routes: {
-        // '/add-alarm': AddAlarm(),
+        '/add-alarm': (context) => AddAlarm(),
       },
       title: 'Flutter Clock',
       theme: ThemeData(

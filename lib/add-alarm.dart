@@ -61,7 +61,40 @@ class _AddAlarmState extends State<AddAlarm> {
                 circleDay('Sun', context, false),
               ],
             ),
+            SizedBox(height: 60,),
+            SizedBox(height: 2.0, child: Container(color: Colors.white30,),),
+            ListTile(
+              leading: Icon(Icons.notifications_none, color: Colors.white,),
+              title: Text('Alarm Notification', style: TextStyle(
+                color: Colors.white,
+              ),),
+            ),
+            SizedBox(height: 2.0, child: Container(color: Colors.white30,),),
+            ListTile(
+              leading: Icon(Icons.check_box, color: Colors.white,),
+              title: Text('Vibrate', style: TextStyle(
+                color: Colors.white,
+              ),),
+            ),
+            SizedBox(height: 2.0, child: Container(color: Colors.white30,),),
+            FlatButton(
+              color: Theme.of(context).accentColor,
+              child: Text('Save', style: TextStyle(
+                color: Colors.white,
+              ),),
+              onPressed: () => Navigator.of(context).pop(),
+            ),
           ],
+        ),
+      ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
+      floatingActionButton: FloatingActionButton(
+        onPressed: () => Navigator.of(context).pop(),
+        backgroundColor: Colors.white,
+        child: Icon(
+          Icons.delete,
+          size: 20.0,
+          color: Theme.of(context).accentColor,
         ),
       ),
     );
