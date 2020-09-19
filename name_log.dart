@@ -33,8 +33,8 @@ commit4: done
 Sept 19th:
 commit1: done
 commit2: done
-commit3: pend
-commit4:
+commit3: done
+commit4: pend
 
 Sept 20th:
 commit1:
