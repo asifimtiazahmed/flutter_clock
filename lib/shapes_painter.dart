@@ -33,8 +33,10 @@ class ShapesPainter extends CustomPainter{
      */
     final secondsP1 = center;
     double secondsDegree = (360 / 60) * now.second;
-    double x = (size.width / 2) + (size.width / 3 - 20) * cos(Vector.radians(secondsDegree));
-    double y = (size.height / 2) + (size.height / 3 - 20) * sin(Vector.radians(secondsDegree));
+    //print(secondsDegree);
+    //print(now.microsecond);
+    double x = (size.width / 2) + (size.width / 3 - 40) * cos(Vector.radians(secondsDegree));
+    double y = (size.height / 2) + (size.height / 3 - 40) * sin(Vector.radians(secondsDegree));
 
     final secondsP2 = Offset(x,y);
     paint.color = Color(0xFF65D1BA);
