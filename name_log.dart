@@ -56,8 +56,8 @@ commit4: done
 
 Sept 23th:
 commit1: done
-commit2: pending
-commit3:
+commit2: done
+commit3: pending
 commit4:
 
 Sept 24th:
