@@ -69,11 +69,11 @@ commit4: done
 Sept 25th:
 commit1: done
 commit2: done
-commit3: pending
-commit4:
+commit3: done
+commit4: done
 
 Sept 26th:
-commit1:
+commit1: pending
 commit2:
 commit3:
 commit4:
