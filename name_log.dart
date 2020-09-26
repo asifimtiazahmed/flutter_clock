@@ -73,8 +73,8 @@ commit3: done
 commit4: done
 
 Sept 26th:
-commit1: pending
-commit2:
+commit1: done
+commit2: done
 commit3:
 commit4:
 
