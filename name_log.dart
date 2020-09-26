@@ -76,7 +76,7 @@ Sept 26th:
 commit1: done
 commit2: done
 commit3: donr
-commit4:
+commit4: pending
 
 Sept 27th:
 commit1:
