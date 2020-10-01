@@ -81,12 +81,12 @@ commit4: done
 Sept 27th:
 commit1: done
 commit2: done
-commit3: pending
-commit4:
+commit3: done
+commit4: done
 
 October 1st:
-commit1:
-commit2:
+commit1: done
+commit2: pending
 commit3:
 commit4:
 
