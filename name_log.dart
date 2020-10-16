@@ -91,34 +91,34 @@ commit3: done
 commit4: done
 
 October 5th:
-commit1:
-commit2:
-commit3:
-commit4:
+commit1: done
+commit2: done
+commit3: done
+commit4: done
 
 October 8st:
-commit1:
-commit2:
-commit3:
-commit4:
+commit1: done
+commit2: done
+commit3: done
+commit4: done
 
 October 13st:
-commit1:
-commit2:
-commit3:
-commit4:
+commit1: done
+commit2: done
+commit3: done
+commit4: done
 
 October 14th:
-commit1:
-commit2:
-commit3:
-commit4:
+commit1: done
+commit2: done
+commit3: done
+commit4: done
 
 October 15th:
-commit1:
-commit2:
-commit3:
-commit4:
+commit1: done
+commit2: done
+commit3: done
+commit4: done
 October 16th:
 commit1:
 commit2:
