@@ -120,13 +120,13 @@ commit2: done
 commit3: done
 commit4: done
 October 16th:
-commit1:
-commit2:
-commit3:
-commit4:
+commit1: done
+commit2: done
+commit3: done
+commit4: done
 
 October 17th:
-commit1:
+commit1: done
 commit2:
 commit3:
 commit4:
