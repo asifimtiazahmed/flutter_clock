@@ -127,8 +127,8 @@ commit4: done
 
 October 17th:
 commit1: done
-commit2:
-commit3:
+commit2: done
+commit3: going
 commit4:
 
 November 1st:
