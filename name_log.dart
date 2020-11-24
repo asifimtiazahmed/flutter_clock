@@ -133,7 +133,7 @@ commit4: done
 
 November 1st:
 commit1: done
-commit2:
+commit2: pending
 commit3:
 commit4:
 
