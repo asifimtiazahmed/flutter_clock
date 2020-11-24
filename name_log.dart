@@ -134,8 +134,8 @@ commit4: done
 November 1st:
 commit1: done
 commit2: done
-commit3: pending
-commit4:
+commit3: done
+commit4: pending
 
 November 2nd:
 commit1:
