@@ -141,10 +141,10 @@ November 2nd:
 commit1: done
 commit2: done
 commit3: done
-commit4: done
+commit4: done`
 
 November 3rd:
-commit1:
+commit1: pending
 commit2:
 commit3:
 commit4:
