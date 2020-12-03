@@ -163,7 +163,7 @@ commit4:
 
 November 8th:
 commit1: done
-commit2:
+commit2: done
 commit3:
 commit4:
 
