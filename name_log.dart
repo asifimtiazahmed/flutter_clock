@@ -174,7 +174,7 @@ commit3: done
 commit4: done
 
 November 10th:
-commit1:
+commit1: done
 commit2:
 commit3:
 commit4:
