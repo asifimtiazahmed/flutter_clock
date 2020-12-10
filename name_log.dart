@@ -186,8 +186,8 @@ commit3: done
 commit4: done
 
 November 14th:
-commit1: donr
-commit2:
+commit1: done
+commit2: done
 commit3:
 commit4:
 
