@@ -199,8 +199,8 @@ commit4: done
 
 November 18th:
 commit1: done
-commit2: dpme
-commit3:
+commit2: done
+commit3: done
 commit4:
 
 November 19th:
