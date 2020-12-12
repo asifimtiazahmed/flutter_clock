@@ -195,7 +195,7 @@ November 15th:
 commit1: done
 commit2: done
 commit3: done
-commit4:
+commit4: done
 
 November 18th:
 commit1:
