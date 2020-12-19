@@ -223,7 +223,7 @@ commit4: done
 
 November 22th:
 commit1: done
-commit2:
+commit2: done
 commit3:
 commit4:
 
