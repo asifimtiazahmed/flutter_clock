@@ -229,7 +229,7 @@ commit4: done
 
 March 28th:
 commit1: done
-commit2:
+commit2: done
 commit3:
 commit4:
 
